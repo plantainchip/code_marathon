@@ -1,0 +1,16 @@
+body {
+    font-size: serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: #666777;
+}
+
+div {
+    margin-top: 40vh;
+}
+
+#compliment {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #dcedff;
+}
