@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.die {
+    margin: 100px;
+    font-size: 150px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.body:focus {
+    outline: none;
+    -webkit-user-select: none; /* Safari, Chrome, Edge */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer 10+ */
+    user-select: none; 
+}

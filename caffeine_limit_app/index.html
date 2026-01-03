@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <h1>Fatal Caffeine App</h1>
+        <form>
+            <br>
+            <br>
+            <label for="weight"> Enter your weight(lbs): </label>
+            <br>
+            <br>
+            <input type="number" id="weight" min="0" max="1000" required>
+            <br>
+            <br>
+            <br>
+            <label for="poison"> Pick your poison: </label>
+            <br>
+            <br>
+            <input type="radio" id="coffee" name="poison" value="80">
+            <label for="coffee"> coffee </label> </label>
+            <br>
+            <br>
+            <input type="radio" id="energy drink" name="poison" value="160">
+            <label for="energy drink"> energy drink </label> </label>
+            <br>
+            <br>
+            <input type="radio" id="tea" name="poison" value="40">
+            <label for="tea"> tea </label> </label>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="buttonContainer">
+                <button> SUBMIT </button>
+            </p>
+            <p id="message">
+            </p>
+        </form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
