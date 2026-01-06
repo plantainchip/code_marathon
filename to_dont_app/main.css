@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    background: rgb(25, 25, 25);
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.notepad{
+    max-width: 600px;
+    margin: 10vh auto;
+    padding: 50px;
+    background: rgb(32, 36, 42);
+    border-radius: 10px;
+}
+
+.title {
+    color: rgb(188, 197, 232);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#new_item {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(120, 125, 146);
+    font-style: normal;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+
+.input_item_checkbox:focus{
+    outline: none;
+    border: none;
+}
+
+.input_item_checkbox{
+    color: rgb(188, 197, 232);
+    background: none;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 300px;
+    border: none;
+}
+
+.deleteX {
+    color: rgb(120, 125, 146);
+    background: none;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    max-width: 300px;
+    border: none;
+    cursor: pointer;
+}
+
+.todont-item{
+    color: rgb(224, 234, 255);
+    padding: 0 20px;
+    font-size: 26px;
+}
+
+#newItemInput {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 50%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightblue;
+    color: rgb(137, 177, 184);
+}
+
+p.todont-item {
+    color: rgb(86, 102, 139);
+    padding: 0;
+    font-size: 15px;
+}
+
+
