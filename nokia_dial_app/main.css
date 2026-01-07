@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+body{
+    max-width: 320px;
+    margin:10vh auto;
+    background-color: rgb(41, 44, 48);
+}
+.screen{
+    width:320px;
+    height:240px;
+    background-color: rgb(139, 141, 30);
+    border-radius: 5px;
+}
+
+.numpad{
+    max-width: 320px;
+    padding: 5px;
+    text-align: center;
+    
+    
+}
+input{
+    justify-content: space-between;
+    font-size: 41.5px;
+    width:70px;
+    height:65px;
+    margin: 5px auto;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.invis{
+    opacity: 0;
+}
+
+#on-screen-text{
+    margin:20px;
+    text-align: right;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"BLED" 0,"SCAN" 0;
+    font-size: 50px;
+    white-space: normal;
+    word-wrap: break-word;
+
+}
