@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(74, 182, 182);    
+}
+
+.button-container{
+    background-color: #FDF5E6;
+    width:100px;
+    height:100px;
+    display: flex;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 5px 10px  #3f3019;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color:#3f3019;
+}
+
+.button-container:hover{
+    background-color: #FFDEAD;
+    cursor: pointer;
+}
+
